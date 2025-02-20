@@ -112,7 +112,7 @@ const MapScreen: React.FC = () => {
             onPress={() => handleMarkerPress(marker)}
           >
             <Image 
-              source={require('./../../geo-vallet/assets/images/car-icon.png')}
+              source={require('./../assets/images/car-icon.png')}
               style={{ width: 40, height: 40 }}
             />
           </Marker>

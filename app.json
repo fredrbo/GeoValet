@@ -10,17 +10,32 @@
       ]
     ],
     "android": {
-      "permissions": ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION"],
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ],
       "config": {
         "googleMaps": {
           "apiKey": "SUA_API_KEY_AQUI"
         }
-      }
+      },
+      "package": "com.fred_rbo.geovalet"
     },
     "ios": {
       "config": {
         "googleMapsApiKey": "SUA_API_KEY_AQUI"
       }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "646e2050-4e40-4815-87b4-059bec274c52"
+      }
     }
   }
-} 
+}

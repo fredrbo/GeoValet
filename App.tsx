@@ -5,4 +5,4 @@ const App: React.FC = () => {
   return <MapScreen />;
 };
 
-export default App; 
+export default App;
