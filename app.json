@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "sdkVersion": "52.0.0",
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location."
+        }
+      ]
+    ],
+    "android": {
+      "permissions": ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION"],
+      "config": {
+        "googleMaps": {
+          "apiKey": "SUA_API_KEY_AQUI"
+        }
+      }
+    },
+    "ios": {
+      "config": {
+        "googleMapsApiKey": "SUA_API_KEY_AQUI"
+      }
+    }
+  }
+} 
