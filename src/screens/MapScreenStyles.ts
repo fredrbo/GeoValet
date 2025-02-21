@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
   myLocationButton: {
     position: 'absolute',
     right: 20,
-    bottom: 20,
+    top: 30,
     backgroundColor: 'white',
     padding: 10,
     borderRadius: 30,

@@ -143,6 +143,7 @@ const MapScreen: React.FC = () => {
         initialRegion={location}
         showsUserLocation={false}
         showsMyLocationButton={false}
+        toolbarEnabled={false}
       >
         {markers.map((marker, index) => (
           <Marker
