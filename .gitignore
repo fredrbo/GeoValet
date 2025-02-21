@@ -4,6 +4,9 @@
 /.pnp
 .pnp.js
 
+# Permitir assim que subir na vettra
+*.jks
+
 # Testing
 /coverage
 
@@ -53,4 +56,4 @@ Thumbs.db
 *.temp
 
 # Arquivos de debug
-debug.log 
+debug.log
